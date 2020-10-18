@@ -1,0 +1,19 @@
+.root {
+  margin-top: 24px;
+  width: 567px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #979797;
+}
+
+.input {
+  border-radius: 8px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  text-indent: 15px;
+}

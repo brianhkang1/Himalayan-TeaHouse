@@ -1,0 +1,82 @@
+.heroImage {
+  width: 100vw;
+  height: 700px;
+  position: relative;
+  background: url('./Images/Hero.png') no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 36px 36px 0 36px;
+}
+
+.leftAlign {
+  display: flex;
+  align-items: center;
+}
+
+.headerItem:not(:first-of-type) {
+  margin-left: 20px;
+}
+
+.logo {
+  height: 36px;
+  width: 36px;
+}
+
+.heroCardContainer {
+  margin-top: -124px;
+  margin-bottom: 127px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.heroCard {
+  height: 248px;
+  width: 926px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: var(--main-colorPlus);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.circlesContainer {
+  margin-top: 24px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.circles {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 36px;
+  padding: 0 2rem;
+}
