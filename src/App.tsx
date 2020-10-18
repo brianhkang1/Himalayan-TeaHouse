@@ -26,7 +26,6 @@ const App = () => {
           <div>
             <SubmitContainer
               placeholder={'Enter email to learn more about the T people'}
-              onClick={() => {}}
             />
           </div>
         </div>
@@ -59,7 +58,6 @@ const App = () => {
         <div>
           <SubmitContainer
             placeholder={'Enter email to get our 6 day email course'}
-            onClick={() => {}}
           />
         </div>
 
@@ -93,10 +91,7 @@ const App = () => {
         </div>
 
         <div>
-          <SubmitContainer
-            placeholder={'Enter email to get our 6 day email course'}
-            onClick={() => {}}
-          />
+          <SubmitContainer placeholder={'Enter email to get weekly stories'} />
         </div>
 
         <div className={styles.teaCardContainer}>
@@ -155,7 +150,6 @@ const App = () => {
                 <SubmitContainer
                   width={'324px'}
                   placeholder={'Enter email for updates'}
-                  onClick={() => {}}
                 />
               </div>
             </div>

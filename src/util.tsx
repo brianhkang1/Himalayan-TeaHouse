@@ -13,6 +13,9 @@ import TeaPic3 from './Images/Tea/3.jpg';
 import TeaPic4 from './Images/Tea/4.jpg';
 import TeaPic5 from './Images/Tea/5.jpg';
 import TeaPic6 from './Images/Tea/6.jpg';
+import PrayerPic1 from './Images/Prayer/1.jpg';
+import PrayerPic2 from './Images/Prayer/2.jpg';
+import PrayerPic3 from './Images/Prayer/3.jpg';
 
 export const EmailTopics = [
   {
@@ -52,7 +55,7 @@ export const IntroCards = [
   },
   {
     title: 'Day 5',
-    subtitle: 'Where matters most to the T people?',
+    subtitle: 'What matters most to the T people?',
     image: IntroPic5
   },
   {
@@ -106,18 +109,18 @@ export const PrayerCards = [
     title: 'Tira Young',
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus ipsum a mauris commodo, et finibus nulla sagittis. Etiam sit amet sem vitae purus fermentum suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-    image: IntroPic1
+    image: PrayerPic1
   },
   {
     title: 'George Lee',
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus ipsum a mauris commodo, et finibus nulla sagittis. Etiam sit amet sem vitae purus fermentum suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-    image: IntroPic2
+    image: PrayerPic2
   },
   {
     title: 'The Hofftens',
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus ipsum a mauris commodo, et finibus nulla sagittis. Etiam sit amet sem vitae purus fermentum suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
-    image: IntroPic3
+    image: PrayerPic3
   }
 ];

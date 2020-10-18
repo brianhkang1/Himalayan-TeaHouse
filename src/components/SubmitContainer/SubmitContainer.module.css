@@ -1,6 +1,8 @@
 .root {
   margin: 24px 0;
-  width: 567px;
+}
+
+.inputContainer {
   height: 50px;
   border-radius: 8px;
   display: flex;
